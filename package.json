@@ -1,0 +1,13 @@
+{
+  "name": "github-org-telegram-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+  "dev": "node api/bot.js",
+  "start": "node api/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
